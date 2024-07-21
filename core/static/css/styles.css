@@ -1,0 +1,13 @@
+body{
+    background-color: rebeccapurple;
+}
+/* Define o contêiner principal como uma grid e centraliza o conteúdo */
+.container {
+    display: grid;
+    place-items: center; /* Centraliza horizontal e verticalmente */
+    height: 100%;        /* Faz o contêiner ocupar a altura total da tela */
+    text-align: center;  /* Centraliza o texto dentro dos elementos */
+}
+#vga{
+    width: 25%;
+}
